@@ -28,5 +28,34 @@
  16.    'php artisan serve'
 
 
-# Testing The Application
+# Testing The Application(User Testing)
+
+
+
+ 1.  Note:: ** when creating an author in the application you have to arrange the name of the authors separated with commas
+
+ 2.  when testing the external application you can use any of the strings to search for the name of the book
+
+      "name" or "name or name" or name
+
+     To filter the books you need to search with you desired parameters as shown below
+
+http://localhost:8000/api/v1/books?search=A Game of Thrones
+
+http://localhost:8000/api/v1/books?search="A Game of Thrones"
+
+http://localhost:8000/api/v1/books?search=2020
+
+
+
+# Test Coverage Report
+
+
+
+1.    To view the test coverage
+2.    navigate to the coverage folder
+3.    click on the index.html open with any browser(100% free from risk)
+
+
+![Screenshot 2022-09-13 at 10-05-03 Code Coverage for the short coding assignment](https://user-images.githubusercontent.com/63076848/189860804-052ac9b9-5430-450d-a970-64e4c49d1ba5.png)
 
